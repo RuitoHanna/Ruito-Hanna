@@ -1,0 +1,95 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300');
+@import url('https://fonts.googleapis.com/css?family=Kaushan+Script');
+
+* {
+    box-sizing: border-box;
+}
+body {
+    background-image: url(https://previews.123rf.com/images/artnis/artnis1803/artnis180300056/97100209-cute-and-simple-seamless-pattern-with-stars.jpg);
+}
+
+.transparan1{background: #9538ff80}
+.transparan2{background: #ff52e880}
+
+.RH {
+    color: rgb(190, 0, 190);
+    font-family: 'Kaushan Script', cursive;
+    font-size: 100px;
+}
+
+.RHa {
+    color: rgb(190, 0, 190);
+    font-family: 'Kaushan Script', cursive;
+    font-size: 35px;
+}
+
+.RHH {
+    color: rgb(190, 0, 190);
+    font-family: 'Open Sans Condensed', cursive;
+    font-size: 40px;
+}
+
+.RHHH {
+    color: rgb(255, 21, 138);
+    font-family: 'Open Sans Condensed', cursive;
+    font-size: 40px;
+}
+header {
+    background: url(bg.jpg) no-repeat;
+    padding-left: 30px;
+    padding-bottom: 10px;
+}
+
+nav {
+    float: left;
+    width: 20%; 
+    background: rgb(183, 120, 255);
+    padding: 20px;
+}
+nav ul {
+  list-style-type: none;
+  padding: 0;
+}
+  
+nav ul a:link {
+  color: #5200b1d3;
+  text-decoration: none;
+}
+  
+nav ul a:hover {
+  color: #5200b1d3;
+  font-weight: 700;
+  text-decoration: none;
+}
+  
+nav ul a:visited {
+  color: #0049d1;
+  text-decoration: none;
+}
+
+article {
+  float: left;
+  padding: 20px;
+  width: 80%;
+  background:rgba(255, 145, 240, 0.7);
+}
+
+section:after {
+    content: "";
+    display: table;
+    clear: both;
+    padding: 10px;
+}
+
+footer {
+    background-color: #448AFF;
+    padding: 10px;
+    text-align: center;
+    color: white;
+}
+
+@media (max-width: 600px) {
+    nav, article {
+        width: 100%;
+        height: auto;
+} 
